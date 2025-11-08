@@ -8,9 +8,14 @@
 
 </head>
 <body>
-    <div id="details" class="grid grid-cols-3"></div>
-    <!-- <button onclick={addClass()}>Change</button> -->
-    <button onclick={getData()}>Get Data</button>
+        <div class="flex justify-center ">
+           <button onclick={getProducts()} id="showProductBtn" class="bg-blue-600 cursor-pointer text-white px-5 py-1 rounded-md my-5 text-center">Show Products</button>
+        </div>
+
+        <div id="card-container" class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-10">
+                  
+        </div>
+
 </body>
 
 <script src="./index.js"></script>
